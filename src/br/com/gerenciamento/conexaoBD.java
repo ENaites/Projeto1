@@ -8,7 +8,7 @@ public class conexaoBD {
 
     private static final String URL_MYSQL = "jdbc:mysql://localhost:3306/gerenciamento_ordem_servico";
     private static final String USUARIO = "root";
-    private static final String SENHA = "F@CTUK3Y1491";
+    private static final String SENHA = "********";
 
     public static Connection conectar() throws SQLException {
         return DriverManager.getConnection(URL_MYSQL, USUARIO, SENHA);
